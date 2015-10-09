@@ -50,18 +50,18 @@ public class PathGenerator {
      * @param platformMap
      * @return
      */
-    public String createPlatformURICode(Map<String, TypeValue> platformMap) {
+    public String createPlatformURICode(Map<String, String> platformMap) {
 
         String shipName = null;
         String callSign = null;
         String result;
 
         if (platformMap.containsKey("Ship Name")) {
-            shipName = platformMap.get("Ship Name").getValue();
+            shipName = platformMap.get("Ship Name");
             shipName = shipName.replace('.', ' ').replace(File.separator, " ");
         }
         if (platformMap.containsKey("ITU Call Sign")) {
-            callSign = platformMap.get("ITU Call Sign").getValue();
+            callSign = platformMap.get("ITU Call Sign");
             callSign = callSign.replace('.', ' ').replace(File.separator, " ");
         }
         if (shipName != null) {
