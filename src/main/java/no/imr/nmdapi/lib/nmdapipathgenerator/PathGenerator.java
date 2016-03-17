@@ -10,6 +10,9 @@ import java.util.Map;
  */
 public class PathGenerator {
 
+    
+    public static String NO_PLATFORM_URI="NoPlatformFound";
+    
     /**
      * Generates the correct path and filename for a mission based on the input
      * information
@@ -73,7 +76,7 @@ public class PathGenerator {
         } else if (callSign != null) {
             result = callSign;
         } else {
-            result = null;
+            result = NO_PLATFORM_URI;
         }
 
         return result;
