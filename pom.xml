@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>no.imr.nmdapi.lib</groupId>
     <artifactId>PathGenerator</artifactId>
-    <version>0.0.6</version>
+    <version>0.0.7-SNAPSHOT</version>
     <packaging>jar</packaging>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -15,7 +15,7 @@
         <connection>scm:git:git@github.com:Institute-of-Marine-Research-NMD/lib-pathgenerator.git</connection>
         <url>scm:git:git@github.com:Institute-of-Marine-Research-NMD/lib-pathgenerator.git</url>
         <developerConnection>scm:git:git@github.com:Institute-of-Marine-Research-NMD/lib-pathgenerator.git</developerConnection>
-        <tag>PathGenerator-0.0.6</tag>
+        <tag>HEAD</tag>
     </scm>
     <distributionManagement>
         <repository>
